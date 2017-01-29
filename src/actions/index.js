@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const OWM_API_KEY = '3108569cf72f319085380f4ae67c8119';
-var ROOT_URL = `http://api.openweathermap.org/data/2.5/forecast?appid=${OWM_API_KEY}`;
+var ROOT_URL = `http://api.openweathermap.org/data/2.5/forecast?appid=${OWM_API_KEY}&units=metric`;
 
 export const FETCH_WEATHER = 'FETCH_WEATHER';
 export function fetchWeather(query){
